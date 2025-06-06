@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safer</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <img src ="../Images/Logo.png" alt="Safer logo">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About</a></li>
+            <li><a href="#contact-us">Contact</a></li>
+        </ul>
+    </nav>
+    
+    
+    <div class="image-text" id="home">
+        <div class="text">
+            <h2>You grab the tickets, we’ll plan the adventure!</h2>
+            <h3>Welcome to our travel guide — your key to making the most of every vacation.</h3>
+            <button onclick="showSelect()">Travel Now!</button>
+        </div>
+        <div class="image">
+            <img src =https://mapmygenome.in/cdn/shop/articles/How_to_Stay_Healthy_While_Traveling_-_Tips_and_Insights_for_a_Safe_Journey.webp?v=1718688910 alt="sea">
+        </div>
+    </div>
+    <div id="where-to">
+        <label for="country">What country do you want to travel to?</label>
+        <br>
+        <br>
+        <select id="country" >
+            <option value="" disabled selected>Select a country</option>
+            <option>Japan</option>
+        </select>
+        <button onclick="showGuide()">Let's Go!</button>
+        <div id="travel-guide">
+            <h2>Japan:</h2>
+            <img src="../Images/japan.jpg" alt="Japan">
+            <p>Japan is a fascinating country that blends ancient traditions with cutting-edge modernity. Located in East Asia, it is an archipelago 
+                made up of over 6,800 islands, with the main islands being Honshu, Hokkaido, Kyushu, and Shikoku. Japan is known for its rich culture, 
+                which includes tea ceremonies, calligraphy, and traditional arts, alongside technological advancements in robotics, electronics, and 
+                automobiles. The country also boasts an exceptional natural landscape, with beautiful mountains, beaches, and hot springs. Japan's 
+                commitment to preserving its heritage while embracing modern innovations 
+                makes it a unique and dynamic destination for travelers.
+            </p>
+            <br>
+            <br>
+            <h2>Tokyo:</h2>
+            <img src="../Images/tokyo.jpeg" alt="Tokyo">
+            <p>Tokyo, the capital of Japan, is a sprawling metropolis that offers something for everyone. It is a global hub for business, technology, 
+                and culture, where futuristic skyscrapers coexist with historic temples and shrines. Popular districts like Shibuya and Shinjuku are known
+                for their vibrant shopping, entertainment, and nightlife, while areas like Asakusa showcase the traditional side of Tokyo, with landmarks such 
+                as Senso-ji Temple. Tokyo is also home to world-class museums, parks, and a culinary scene that includes sushi, ramen, and more. Whether you’re a 
+                fan of pop culture, history, or food, Tokyo is an exciting and diverse city to explore.
+            </p>
+            <br>
+            <h2>Kyoto:</h2>
+            <img src="../Images/kyoto.jpg" alt="kyoto">
+            <p>Kyoto, the ancient capital of Japan, is often referred to as the country's cultural heart. Known for its stunning temples, shrines, and traditional 
+                wooden houses, Kyoto offers a glimpse into Japan's past. The city is famous for its beautiful gardens, tea houses, and the iconic Kinkaku-ji 
+                (Golden Pavilion), a Zen Buddhist temple surrounded by tranquil ponds. Kyoto is also the center of traditional Japanese arts, including tea ceremonies, 
+                kimono wearing, and geisha culture. During the spring, Kyoto is particularly magical, with cherry blossoms blooming in its many parks and along the Kamo 
+                River, creating a picturesque scene that draws visitors from around the world.
+            </p>
+            <br>
+            <h2>Osaka:</h2>
+            <img src="../Images/osaka.jpeg" alt="Osaka">
+            <p>Osaka, Japan's third-largest city, is known for its modern architecture, vibrant nightlife, and delicious food scene. Often called the "kitchen of Japan,"
+                Osaka is famous for dishes like takoyaki (octopus balls) and okonomiyaki (savory pancakes). The city is also home to historical sites such as Osaka Castle, 
+                a beautiful structure surrounded by scenic gardens. Osaka is an energetic city that combines its rich history with a love for entertainment and innovation. 
+                The Dotonbori district, with its neon lights and street food stalls, is a must-see, offering a bustling atmosphere where visitors can immerse themselves in 
+                local culture and cuisine.
+            </p>
+        </div>
+    </div>
+
+    <div class="about" id="about-us">
+        <h2>About Us</h2>
+        <p>At Safer, we believe that travel should be exciting,
+            easy, and safe. Whether you're dreaming of cultural adventures,
+             breathtaking landscapes, or hidden gems,
+              we're here to guide you every step of the way. Our travel insights, 
+              carefully crafted recommendations, and simplified planning tools help 
+              you make the most of your journey without the stress. 
+              With Safer, all you need to do is grab the tickets — we'll handle the rest.
+
+        </p>
+    </div>
+    <div class="contact" id="contact-us">
+        <h2>Contact Us</h2>
+        <ul>
+            <li><a href="www.Facebook.com/Safer">Facebook</a></li>
+            <li><a href="www.Instagram.com/Safer">Instagram</a></li>
+            <li>Safer@email.com</li>
+        </ul>
+    </div>
+</body>
+</html>

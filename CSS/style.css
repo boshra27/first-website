@@ -1,0 +1,139 @@
+body{
+    background-color: #b3d9ff;
+    margin: 0;
+}
+
+.navbar{
+    background-color: #4da6ff;
+    position: fixed;
+    display: flex;
+    top:0%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+
+}
+
+.navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    text-align: right;
+    padding: 25px 20px;
+}
+.navbar a:hover{
+    background-color: #3399ff;
+    border-radius: 5px;
+
+}
+
+.image-text{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 200px 50px;
+
+}
+
+.text{
+    margin-top: 80px;
+    text-align: left;
+    flex:1;
+}
+.image-text button{
+    padding: 10px;
+    background-color: #66b3ff; 
+    color: white;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.image{
+    text-align: right;
+    flex:1;
+}
+.image-text button:hover{
+    background-color: #3399ff;
+}
+.image img{
+    width: 500px;
+    border-radius: 500px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.image img:hover {
+    transform: scale(1.05);
+}
+
+#where-to{
+    display: none;
+    padding: 50px;
+}
+#where-to label{
+    font-size: x-large;
+    font-weight:bold;
+}
+#where-to select{
+    width: 200px;
+    padding: 10px;
+    color:black;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#where-to button{
+    padding: 10px;
+    background-color: #66b3ff;
+    color: white;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#travel-guide{
+    display: none;
+}
+#travel-guide p{
+    font-size: large;
+}
+#travel-guide img{
+    width: 500px;
+    border-radius: 50px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+#travel-guide img:hover{
+    transform: scale(1.05);
+}
+.about{
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 50px;
+}
+.about p{
+    font-size: large;
+}
+
+.contact{
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 50px;
+}
+
+.contact li {
+    font-size: large;
+}
+
+.contact a{
+    color: #0066cc;
+}
